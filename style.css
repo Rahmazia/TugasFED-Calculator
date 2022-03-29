@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Courier;
+}
+
+body {
+	
+	background: rgba(82, 69, 82, 0.808);
+	height: 600px;
+}
+
+.wrapper{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgb(174, 138, 207);
+	padding: 34px;
+	border-radius: 17px;
+	box-shadow: 0 0 17px;
+}
+
+.button {
+	width: 52px;
+	height: 52px;
+	font-size: 25px;
+	margin: 5px;
+	cursor: pointer;
+	border: none;
+	background: #eba4d9fa;
+	color: rgb(29, 19, 19);
+	border-radius: 25px;
+}
+
+.btn-form {
+	background:rgb(160, 117, 230);
+	color:#2b0620;
+}
+
+.textView {
+	width: 208px;
+	margin: 5px;
+	font-size: 20px;
+	padding: 17px;
+	border: none;
+	color: #white;
+	border-radius: 25px;
+	text-align: right;
+    
+}
